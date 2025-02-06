@@ -66,6 +66,8 @@ El ruido con impulso es caracterizado por tener picos de alta intensidad o valor
 ![image](https://github.com/user-attachments/assets/0b2a7d67-163c-4e77-b8e4-be06733b02f5)
 ## *Figura 5: Señal de Ruido de artefacto.*
 El ruido con artefacto son distorsiones o anomalías que alteran la apariencia o el comportamiento de la señal. Se evalúa este ruido con la señal ya que en el momento de adquirir o de transmitir los datos de una señal pueden existir modificaciones no deseadas en las cuales no representan información real de la fuente original.
+![image](https://github.com/user-attachments/assets/3bd219a8-a5e7-4648-8e9b-718be473b213)
+
 ### 6. Calculos estadisticos
 ![image](https://github.com/user-attachments/assets/a66b0eef-3b9e-4428-b55e-387434106013)
 ## *Figura 6: Calculos estadisticos.*
