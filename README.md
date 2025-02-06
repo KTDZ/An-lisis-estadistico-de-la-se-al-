@@ -49,27 +49,32 @@ En este laboratorio se realiza lo siguiente:
 
 ## Resultados y Gráficas
 ### 1. Señal Original 
-![image](https://github.com/user-attachments/assets/84311f68-7927-4cf1-a1c1-b36373a3caac)
+![image](https://github.com/user-attachments/assets/ca43bd6b-6698-499d-abb2-bf55fdf0ca86)
 ## *Figura 1: Representación de la señal en el dominio del tiempo.*
 ### 2. Histograma y Función de probabilidad desde cero y predefinida.
 ![image](https://github.com/user-attachments/assets/2ca58720-5063-41b6-9135-99094ab103c0)
+El histograma y nuestra función de probabilidad corresponde a una señal de EMG(electromiografia) por lo tanto se puede analizar lo siguiente:
+##
+1. En el histograma la frecuencia da diferentes valores de amplitud de la señal,esto debido a que si la señal se encuentra en reposo, en este caso que la actividad musculas se baja, las amplitudes se van a concentrar al rededos de cero con algunas fluctuaciones menores debido al ruido que pueda tener la señal, mientras que las señales de EMG activas, que es cuando el músculo se contrae, los valores de las amplitudes van a aumentar, pero tienden a distribuirse de una manera simétrica refeljando la naturaleza oscilatoria de la señal. 
 ## *Figura 2: Histograma y Función de probabilidad.*
 ### 3. Señal con Ruido Gaussioano
-![image](https://github.com/user-attachments/assets/973746dd-5009-4ae3-9935-1d7cc58f56f3)
+![image](https://github.com/user-attachments/assets/e2675ac9-8e7d-4bfc-b03a-978618887038)
 ## *Figura 3: Señal del Ruido Gaussiano.*
 El ruido Gaussiano sigue una distribución normal y se caracteriza por tener valores aleatorios que se distribuyen siguiendo la curva de Gauss que tiene forma de campana. Se evalúa este ruido con la señal con este ruido ya que es un modelo que se aproxima a lo que ocurre en sistemas reales y sus propiedades matemáticas permiten eliminarlo eficazmente. 
 ### 4. Señal con Ruido de impulso
-![image](https://github.com/user-attachments/assets/58cedf77-3965-448c-9a4d-b41e8d36dff2)
+![image](https://github.com/user-attachments/assets/d8c09649-65df-4f91-b2f7-a0f38d936b2f)
 ## *Figura 4: Señal con ruido de impulso.*
 El ruido con impulso es caracterizado por tener picos de alta intensidad o valores extremos que ocurren repentinamente a lo largo de la señal. Se evalúa este ruido con la señal ya que en el mundo real pueden ocurrir perturbaciones inesperadas en el ambiente como interferencias eléctricas o descargas que generen picos extremos.
 ### 5. Señal con ruido de artefacto
-![image](https://github.com/user-attachments/assets/0b2a7d67-163c-4e77-b8e4-be06733b02f5)
+![image](https://github.com/user-attachments/assets/c3845491-6e82-4740-b698-92d8695e9c30)
 ## *Figura 5: Señal de Ruido de artefacto.*
 El ruido con artefacto son distorsiones o anomalías que alteran la apariencia o el comportamiento de la señal. Se evalúa este ruido con la señal ya que en el momento de adquirir o de transmitir los datos de una señal pueden existir modificaciones no deseadas en las cuales no representan información real de la fuente original.
-![image](https://github.com/user-attachments/assets/3bd219a8-a5e7-4648-8e9b-718be473b213)
-
 ### 6. Calculos estadisticos
 ![image](https://github.com/user-attachments/assets/a66b0eef-3b9e-4428-b55e-387434106013)
+##
+1. **Media**: Representa el valor promedio de la señal, la razón de que nos diera un valor tan bajo es que la oscilacion de la señal EMG es cercana a cero.
+2. **Desviación Estandar**: Es la dispersión de los valores que tiene la señal respecto a la media, esto nos quiere decir que la mayoria de los valores estan alrededor de 0.08157..., la variabilidad va a depender de diferentes factores, como lo son la actividad muscular y el ruido que pueda tener presente en la señal.
+3. **Coeficiente de variación**: Esta es una medida que va a relacionar la relación entre la desviación estandar y la media, dando un valor en porcentaje, el que nos de un valor porcentual tan alto nos dice que la media de nuestra señal es muy pequeña (cercana a cero), lo que hace que en coeficiente de variación sea tan alto, esto nos indica que la media no es representativa de la variabilidad de la señal,  lo cual puede ser normal en señales EMG.
 ## *Figura 6: Calculos estadisticos.*
 ### 7.Calculos de SNR
 ![image](https://github.com/user-attachments/assets/bdb2fbd4-d642-43cb-9b18-9d9900204696)
