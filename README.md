@@ -69,6 +69,10 @@ En este laboratorio se realiza lo siguiente:
 ### 7.Calculos de SNR
 ![image](https://github.com/user-attachments/assets/bdb2fbd4-d642-43cb-9b18-9d9900204696)
 ## *Figura 7: Calculos SNR.*
+El SNR al medir la relación entre la potencia de la señal y la potencia del ruido en decibeles (dB). El que el SNR se positivo significa que ña señal es más fuerte que el ruido, mientras que si un SNR es negativo nos va a indicar que el ruido es mucho mas predominate sobre la señal, con esto podemos decir que: 
+1.**Ruido Gaussiano(-1.78 dB)**: Al ser el SNR cercano a 0 dB sugiere que la señal y el ruido puede tener potencias similares, en etse caso el ruido gaussiano está casi al mismo novel que la señal, lo que puede llegar a generar una leve degradación de la calidad. 
+2.**Ruido de impulso(12.86 dB)**: El SNR positivo va indica que la señal es significativamente más fuerte que el ruido de impulso, estos ruido son comunes, aparecen como picos esporádicos en la señal, pero en general no llega a afectar demasiado la estructura de la señal original. 
+3.**Ruido de artefacto(-12.74 dB)**: El SNR es negativo en este caso y el que sea tan alto indica que el ruido es mucho mas fuerte que la señal, este tipo de ruido puede estar dominando completamente la señal,lo que puede sugerir una severa distorsión en los datos originales. 
 
 ## Conclusiones 
 - Las estadísticas descriptivas permiten identificar los patrones y anomalías, el calculo del SNR nos da una medida cuantitativa del nivel de interferencia en la señalEste análisis permite comprender mejor las características de las señales EMG, su procesamiento y el impacto del ruido en su calidad. Además, el repositorio en GitHub proporciona una guía clara para la reproducción y el aprendizaje de estos métodos.
