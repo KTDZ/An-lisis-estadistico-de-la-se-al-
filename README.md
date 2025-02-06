@@ -57,12 +57,15 @@ En este laboratorio se realiza lo siguiente:
 ### 3. Señal con Ruido Gaussioano
 ![image](https://github.com/user-attachments/assets/973746dd-5009-4ae3-9935-1d7cc58f56f3)
 ## *Figura 3: Señal del Ruido Gaussiano.*
+El ruido Gaussiano sigue una distribución normal y se caracteriza por tener valores aleatorios que se distribuyen siguiendo la curva de Gauss que tiene forma de campana. Se evalúa este ruido con la señal con este ruido ya que es un modelo que se aproxima a lo que ocurre en sistemas reales y sus propiedades matemáticas permiten eliminarlo eficazmente. 
 ### 4. Señal con Ruido de impulso
 ![image](https://github.com/user-attachments/assets/58cedf77-3965-448c-9a4d-b41e8d36dff2)
 ## *Figura 4: Señal con ruido de impulso.*
+El ruido con impulso es caracterizado por tener picos de alta intensidad o valores extremos que ocurren repentinamente a lo largo de la señal. Se evalúa este ruido con la señal ya que en el mundo real pueden ocurrir perturbaciones inesperadas en el ambiente como interferencias eléctricas o descargas que generen picos extremos.
 ### 5. Señal con ruido de artefacto
 ![image](https://github.com/user-attachments/assets/0b2a7d67-163c-4e77-b8e4-be06733b02f5)
 ## *Figura 5: Señal de Ruido de artefacto.*
+El ruido con artefacto son distorsiones o anomalías que alteran la apariencia o el comportamiento de la señal. Se evalúa este ruido con la señal ya que en el momento de adquirir o de transmitir los datos de una señal pueden existir modificaciones no deseadas en las cuales no representan información real de la fuente original.
 ### 6. Calculos estadisticos
 ![image](https://github.com/user-attachments/assets/a66b0eef-3b9e-4428-b55e-387434106013)
 ## *Figura 6: Calculos estadisticos.*
