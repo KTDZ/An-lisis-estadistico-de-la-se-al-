@@ -71,6 +71,6 @@ En este laboratorio se realiza lo siguiente:
 ## *Figura 7: Calculos SNR.*
 
 ## Conclusiones 
-- Este análisis permite comprender mejor las características de las señales EMG, su procesamiento y el impacto del ruido en su calidad. Además, el repositorio en GitHub proporciona una guía clara para la reproducción y el aprendizaje de estos métodos.
+- Las estadísticas descriptivas permiten identificar los patrones y anomalías, el calculo del SNR nos da una medida cuantitativa del nivel de interferencia en la señalEste análisis permite comprender mejor las características de las señales EMG, su procesamiento y el impacto del ruido en su calidad. Además, el repositorio en GitHub proporciona una guía clara para la reproducción y el aprendizaje de estos métodos.
 
 
