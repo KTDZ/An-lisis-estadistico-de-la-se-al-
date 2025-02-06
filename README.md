@@ -86,7 +86,7 @@ Las señales biomédicas son las señales generadas por el cuerpo humano, como l
 - **Phyton** Instalado en tu sistema 
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
 - **Bibliotecas de Python:** `numpy`,`matplotlib`,`scipy`,`wfdb`
-- **Una señal fisiológica en formato `.dat` y `.hea` (Se puede descargala de [Physionet](https://physionet.org/)).
+- **Una señal fisiológica en formato `.dat` y `.hea` (Se puede descargala de [Physionet](https://physionet.org/))**.
 
 ## Descargar una señal fisiologica y Guardar los datos en el código 
 1. Entrar a Physionet y descargar una señal en formato .dat y .hea, en este caso de una señal EMG
@@ -96,14 +96,14 @@ Las señales biomédicas son las señales generadas por el cuerpo humano, como l
    
 ## Explicación del Código  
 
-### 1. **Lectura de la señal**: Se utiliza la biblioteca wfdb para leer la señal fisiológica desde los archivos .dat y .hea
-![image](https://github.com/user-attachments/assets/a6ebaa49-53fc-48ba-b1fd-f9ea67d60226)
-### 2.**Cálculos de estadistica**:Se calculan estadísticas descriptivas como la media,desviación estándar y coeficiente de variación.Estas se calculan de dos maneras:Programando las fórmulas desde cero y utilizando funciones predefinidas de python.
-![image](https://github.com/user-attachments/assets/b68de891-4309-46ec-a174-4868bfe7f217)
-### 3.**Visualización de la señal**: La señal se grafica en el dominio del tiempo para su inspección visual.
-![image](https://github.com/user-attachments/assets/b1c01518-2b65-49e8-b334-3fd0a559c2a2)
-## 4.**Histograma y Función de Probabilidad** : Se grafica un Histograma de señal junto con su función de Probabilidad.
-## 5.**Calculo de SNR por potencia y por forma estadistica**: se añade diferentes tipos de ruido ( gaussiano,impulso y artefacto) a la señal y se calcula el SNR para cada caso.
+1. **Lectura de la señal**: Se utiliza la biblioteca wfdb para leer la señal fisiológica desde los archivos .dat y .hea
+### ![image](https://github.com/user-attachments/assets/a6ebaa49-53fc-48ba-b1fd-f9ea67d60226)
+2.**Cálculos de estadistica**:Se calculan estadísticas descriptivas como la media,desviación estándar y coeficiente de variación.Estas se calculan de dos maneras:Programando las fórmulas desde cero y utilizando funciones predefinidas de python.
+### ![image](https://github.com/user-attachments/assets/b68de891-4309-46ec-a174-4868bfe7f217)
+3.**Visualización de la señal**: La señal se grafica en el dominio del tiempo para su inspección visual.
+### ![image](https://github.com/user-attachments/assets/b1c01518-2b65-49e8-b334-3fd0a559c2a2)
+4.**Histograma y Función de Probabilidad** : Se grafica un Histograma de señal junto con su función de Probabilidad.
+5.**Calculo de SNR por potencia y por forma estadistica**: se añade diferentes tipos de ruido ( gaussiano,impulso y artefacto) a la señal y se calcula el SNR para cada caso.
 ## Resultados y Gráficas
 ### 1. Señal Original 
 ![image](https://github.com/user-attachments/assets/84311f68-7927-4cf1-a1c1-b36373a3caac)
